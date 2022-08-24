@@ -1,6 +1,7 @@
 <?php include_once './layout/header.php'; ?>
 
 <div class="container pt-3">
+
     <h1>Formulir Pendaftaran Siswa Baru</h1>
     <div class="col">
         <form class="needs-validation" action="controller/siswa.php" method="post" novalidate>
@@ -47,7 +48,10 @@
                     Kolom harus diisi
                 </div>
             </div>
-            <button name="create" type="submit" class="btn btn-primary mt-3">Submit</button>
+            <div class="col d-flex align-items-center mt-3">
+                <button name="create" type="submit" class="btn btn-primary me-3">Submit</button>
+                <a href="/<?= PROJECT_FOLDER ?>">Kembali ke index</a>
+            </div>
         </form>
     </div>
 </div>

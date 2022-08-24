@@ -8,7 +8,9 @@ define('USERNAME', 'root');
 define('PASSWORD', '');
 
 // SERVER
-define('PROJECT_FOLDER', 'pendaftaran_siswa');
+
+// Nama folder proyek di folder htdocs
+define('PROJECT_FOLDER', 'digitalent-jwd/P14_PendaftaranSiswa');
 define('ORIGIN', 'localhost');
 define('PROTOCOL', 'http');
 
